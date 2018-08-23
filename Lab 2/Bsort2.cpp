@@ -13,8 +13,7 @@ bool comp(char*,int , int );
 
 int main(int argc, char* argv[])
 {
-	//string args=  str(argv[1]);
-	// one for a.out , asce or descending size  not  for this program
+	
 	if(argc <4)
 		cout<<"this is not the right way to fo it please fo it again";
 
