@@ -1,7 +1,7 @@
 
 ## INSTRUCTIONS FOR GIVING INPUTS TO THE PROGRAMS
 
-1. Open the respecctive input file 
+1. Open the respective input file 
 	A for fcfs,sjf,srt the input files are same i.e inputsrt.txt
 
 	B for priorities the inpuut file are same i.e inputpr.txt
