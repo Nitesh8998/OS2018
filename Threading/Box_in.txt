@@ -1,0 +1,14 @@
+
+ Enter the size of the array#
+Enter the array elements#
+
+un sorted ?4 6 3 1 2 
+sorted 
+1 2 3 4 6 
+Here is the box plot paramaeters#
+
+ The smallest is : 1.00
+ The first quartile: 1.50
+ The Second quartile: 3.00
+ The Third quartile: 2.00
+ The Largest is : 6.00

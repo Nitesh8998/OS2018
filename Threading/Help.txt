@@ -1,0 +1,17 @@
+
+For the programs in this folder 
+append every command for compilation with -lpthread or -pthread
+
+PS i named every executable as its parent file named
+
+example for the box plot
+gcc Box_plot.c -o Box_plot -lpthread
+then  for execution
+./Box_plot > Box_in.txt && python Box_Gui.py
+
+Similary the execution of most have there own input files or you 
+can give input manually
+
+M_M_M is mean median and mode
+
+Ignore the DUMP and exp just for your reference ( what you should NOT DO)
