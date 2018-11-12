@@ -1,0 +1,37 @@
+ Enter the number of students
+5
+
+ Woke the TA
+1 is waiting in chair 3
+ Chair freed now chairs available: 3
+stud 1 id getting his Getting doubt cleared TA state:0 and helping TA_help: 0
+ stud 1 got his dowbts cleared
+ now 4 number of students are left Post to TA success
+2 is waiting in chair 3
+4 is waiting in chair 2
+ Chair freed now chairs available: 2
+3 is waiting in chair 2
+stud 2 id getting his Getting doubt cleared TA state:0 and helping TA_help: 1
+ stud 2 got his dowbts cleared
+ now 3 number of students are left Post to TA success
+5 is waiting in chair 1
+ Chair freed now chairs available: 1
+stud 4 id getting his Getting doubt cleared TA state:0 and helping TA_help: 1
+ stud 4 got his dowbts cleared
+ now 2 number of students are left Post to TA success
+ Chair freed now chairs available: 2
+stud 3 id getting his Getting doubt cleared TA state:0 and helping TA_help: 1
+ stud 3 got his dowbts cleared
+ now 1 number of students are left Post to TA success
+ Chair freed now chairs available: 3
+stud 5 id getting his Getting doubt cleared TA state:0 and helping TA_help: 1
+ stud 5 got his dowbts cleared
+ now 0 number of students are left Post to TA success
+impatient and lazy TA Slept:P
+impatient and lazy TA Slept:P
+impatient and lazy TA Slept:P
+impatient and lazy TA Slept:P
+impatient and lazy TA Slept:P
+No more students left TA is going to sleep
+ All have finished their assignments!! 
+

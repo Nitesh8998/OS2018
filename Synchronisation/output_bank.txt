@@ -1,0 +1,486 @@
+Customer id:1  acnt_bal:40000 
+Customer id:2  acnt_bal:10000 
+Customer id:3  acnt_bal:40000 
+Customer id:4  acnt_bal:40000 
+Customer id:5  acnt_bal:30000 
+Customer id:6  acnt_bal:30000 
+Customer id:7  acnt_bal:50000 
+Customer id:8  acnt_bal:80000 
+Customer id:9  acnt_bal:40000 
+Customer id:10  acnt_bal:40000 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ Customer with customer details
+Customer id:1  acnt_bal:40000 
+ is looking for counter
+token increased 1
+counter 1 takes customer with cust_id:1 and trans_id:11 acquires the counter sem
+This is the amnt to be credited 34000
+ credit was succesful for trans_id: 11 and cust_id: 1 with new acnt_bal:74000
+counter 1 kicks customer with cust_id:1 and releases the counter sem 
+
+ Customer with customer details
+Customer id:2  acnt_bal:10000 
+ is looking for counter
+token increased 2
+counter 2 takes customer with cust_id:2 and trans_id:210 acquires the counter sem
+This is the amnt to be credited 27000
+ credit was succesful for trans_id: 210 and cust_id: 2 with new acnt_bal:37000
+counter 2 kicks customer with cust_id:2 and releases the counter sem 
+
+ Customer with customer details
+Customer id:3  acnt_bal:40000 
+ is looking for counter
+token increased 3
+counter 3 takes customer with cust_id:3 and trans_id:140 acquires the counter sem
+This is the amnt to be credited 18000
+ credit was succesful for trans_id: 140 and cust_id: 3 with new acnt_bal:58000
+counter 3 kicks customer with cust_id:3 and releases the counter sem 
+
+ Customer with customer details
+Customer id:4  acnt_bal:40000 
+ is looking for counter
+token increased 4
+counter 0 takes customer with cust_id:4 and trans_id:124 acquires the counter sem
+This is the amnt to be credited 24000
+ credit was succesful for trans_id: 124 and cust_id: 4 with new acnt_bal:64000
+counter 0 kicks customer with cust_id:4 and releases the counter sem 
+
+ Customer with customer details
+Customer id:5  acnt_bal:30000 
+ is looking for counter
+token increased 5
+counter 1 takes customer with cust_id:5 and trans_id:118 acquires the counter sem
+ before debit for trans_id: 118 and cust_id: 5 with new acnt_bal:30000
+Customer with cust_id: 5 has acnt_bal:30000 cannot draw 39000
+counter 1 kicks customer with cust_id:5 and releases the counter sem 
+
+ Customer with customer details
+Customer id:6  acnt_bal:30000 
+ is looking for counter
+token increased 6
+counter 2 takes customer with cust_id:6 and trans_id:20 acquires the counter sem
+This is the amnt to be credited 40000
+ credit was succesful for trans_id: 20 and cust_id: 6 with new acnt_bal:70000
+counter 2 kicks customer with cust_id:6 and releases the counter sem 
+
+ Customer with customer details
+Customer id:7  acnt_bal:50000 
+ is looking for counter
+token increased 7
+counter 3 takes customer with cust_id:7 and trans_id:65 acquires the counter sem
+ before debit for trans_id: 65 and cust_id: 7 with new acnt_bal:50000
+This is the amount to be debited 24000
+ debit was successful for trans_id: 65 and cust_id: 7 with new acnt_bal:26000
+counter 3 kicks customer with cust_id:7 and releases the counter sem 
+
+ Customer with customer details
+Customer id:8  acnt_bal:80000 
+ is looking for counter
+token increased 8
+counter 0 takes customer with cust_id:8 and trans_id:164 acquires the counter sem
+This is the amnt to be credited 48000
+ credit was succesful for trans_id: 164 and cust_id: 8 with new acnt_bal:128000
+counter 0 kicks customer with cust_id:8 and releases the counter sem 
+
+ Customer with customer details
+Customer id:9  acnt_bal:40000 
+ is looking for counter
+token increased 9
+counter 1 takes customer with cust_id:9 and trans_id:60 acquires the counter sem
+ before debit for trans_id: 60 and cust_id: 9 with new acnt_bal:40000
+Customer with cust_id: 9 has acnt_bal:40000 cannot draw 38000
+counter 1 kicks customer with cust_id:9 and releases the counter sem 
+
+ Customer with customer details
+Customer id:10  acnt_bal:40000 
+ is looking for counter
+token increased 10
+counter 2 takes customer with cust_id:10 and trans_id:47 acquires the counter sem
+This is the amnt to be credited 15000
+ credit was succesful for trans_id: 47 and cust_id: 10 with new acnt_bal:55000
+counter 2 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 11
+counter 3 takes customer with cust_id:1 and trans_id:187 acquires the counter sem
+ before debit for trans_id: 187 and cust_id: 1 with new acnt_bal:74000
+This is the amount to be debited 13000
+ debit was successful for trans_id: 187 and cust_id: 1 with new acnt_bal:61000
+counter 3 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 12
+counter 0 takes customer with cust_id:2 and trans_id:149 acquires the counter sem
+This is the amnt to be credited 32000
+ credit was succesful for trans_id: 149 and cust_id: 2 with new acnt_bal:69000
+counter 0 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 13
+counter 1 takes customer with cust_id:3 and trans_id:114 acquires the counter sem
+This is the amnt to be credited 46000
+ credit was succesful for trans_id: 114 and cust_id: 3 with new acnt_bal:104000
+counter 1 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 14
+counter 2 takes customer with cust_id:4 and trans_id:8 acquires the counter sem
+This is the amnt to be credited 19000
+ credit was succesful for trans_id: 8 and cust_id: 4 with new acnt_bal:83000
+counter 2 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 15
+counter 3 takes customer with cust_id:5 and trans_id:116 acquires the counter sem
+This is the amnt to be credited 16000
+ credit was succesful for trans_id: 116 and cust_id: 5 with new acnt_bal:46000
+counter 3 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 16
+counter 0 takes customer with cust_id:6 and trans_id:169 acquires the counter sem
+ before debit for trans_id: 169 and cust_id: 6 with new acnt_bal:70000
+This is the amount to be debited 29000
+ debit was successful for trans_id: 169 and cust_id: 6 with new acnt_bal:41000
+counter 0 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 17
+counter 1 takes customer with cust_id:7 and trans_id:43 acquires the counter sem
+This is the amnt to be credited 15000
+ credit was succesful for trans_id: 43 and cust_id: 7 with new acnt_bal:41000
+counter 1 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 18
+counter 2 takes customer with cust_id:8 and trans_id:104 acquires the counter sem
+ before debit for trans_id: 104 and cust_id: 8 with new acnt_bal:128000
+This is the amount to be debited 22000
+ debit was successful for trans_id: 104 and cust_id: 8 with new acnt_bal:106000
+counter 2 kicks customer with cust_id:8 and releases the counter sem 
+
+token increased 19
+counter 3 takes customer with cust_id:9 and trans_id:89 acquires the counter sem
+ before debit for trans_id: 89 and cust_id: 9 with new acnt_bal:40000
+Customer with cust_id: 9 has acnt_bal:40000 cannot draw 31000
+counter 3 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 20
+counter 0 takes customer with cust_id:10 and trans_id:47 acquires the counter sem
+This is the amnt to be credited 36000
+ credit was succesful for trans_id: 47 and cust_id: 10 with new acnt_bal:91000
+counter 0 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 21
+counter 1 takes customer with cust_id:1 and trans_id:166 acquires the counter sem
+ before debit for trans_id: 166 and cust_id: 1 with new acnt_bal:61000
+This is the amount to be debited 47000
+ debit was successful for trans_id: 166 and cust_id: 1 with new acnt_bal:14000
+counter 1 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 22
+counter 2 takes customer with cust_id:2 and trans_id:84 acquires the counter sem
+This is the amnt to be credited 34000
+ credit was succesful for trans_id: 84 and cust_id: 2 with new acnt_bal:103000
+counter 2 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 23
+counter 3 takes customer with cust_id:3 and trans_id:21 acquires the counter sem
+This is the amnt to be credited 29000
+ credit was succesful for trans_id: 21 and cust_id: 3 with new acnt_bal:133000
+counter 3 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 24
+counter 0 takes customer with cust_id:4 and trans_id:206 acquires the counter sem
+This is the amnt to be credited 42000
+ credit was succesful for trans_id: 206 and cust_id: 4 with new acnt_bal:125000
+counter 0 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 25
+counter 1 takes customer with cust_id:7 and trans_id:163 acquires the counter sem
+ before debit for trans_id: 163 and cust_id: 7 with new acnt_bal:41000
+This is the amount to be debited 12000
+ debit was successful for trans_id: 163 and cust_id: 7 with new acnt_bal:29000
+counter 1 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 26
+counter 2 takes customer with cust_id:6 and trans_id:33 acquires the counter sem
+ before debit for trans_id: 33 and cust_id: 6 with new acnt_bal:41000
+Customer with cust_id: 6 has acnt_bal:41000 cannot draw 32000
+counter 2 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 27
+counter 3 takes customer with cust_id:8 and trans_id:83 acquires the counter sem
+ before debit for trans_id: 83 and cust_id: 8 with new acnt_bal:106000
+This is the amount to be debited 42000
+ debit was successful for trans_id: 83 and cust_id: 8 with new acnt_bal:64000
+counter 3 kicks customer with cust_id:8 and releases the counter sem 
+
+token increased 28
+counter 0 takes customer with cust_id:5 and trans_id:181 acquires the counter sem
+ before debit for trans_id: 181 and cust_id: 5 with new acnt_bal:46000
+This is the amount to be debited 16000
+ debit was successful for trans_id: 181 and cust_id: 5 with new acnt_bal:30000
+counter 0 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 29
+counter 1 takes customer with cust_id:9 and trans_id:140 acquires the counter sem
+ before debit for trans_id: 140 and cust_id: 9 with new acnt_bal:40000
+Customer with cust_id: 9 has acnt_bal:40000 cannot draw 43000
+counter 1 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 30
+counter 2 takes customer with cust_id:10 and trans_id:152 acquires the counter sem
+This is the amnt to be credited 27000
+ credit was succesful for trans_id: 152 and cust_id: 10 with new acnt_bal:118000
+counter 2 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 31
+counter 3 takes customer with cust_id:1 and trans_id:119 acquires the counter sem
+This is the amnt to be credited 29000
+ credit was succesful for trans_id: 119 and cust_id: 1 with new acnt_bal:43000
+counter 3 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 32
+counter 0 takes customer with cust_id:2 and trans_id:156 acquires the counter sem
+ before debit for trans_id: 156 and cust_id: 2 with new acnt_bal:103000
+This is the amount to be debited 35000
+ debit was successful for trans_id: 156 and cust_id: 2 with new acnt_bal:68000
+counter 0 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 33
+counter 1 takes customer with cust_id:3 and trans_id:188 acquires the counter sem
+This is the amnt to be credited 21000
+ credit was succesful for trans_id: 188 and cust_id: 3 with new acnt_bal:154000
+counter 1 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 34
+counter 2 takes customer with cust_id:4 and trans_id:63 acquires the counter sem
+ before debit for trans_id: 63 and cust_id: 4 with new acnt_bal:125000
+This is the amount to be debited 18000
+ debit was successful for trans_id: 63 and cust_id: 4 with new acnt_bal:107000
+counter 2 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 35
+counter 3 takes customer with cust_id:7 and trans_id:4 acquires the counter sem
+ before debit for trans_id: 4 and cust_id: 7 with new acnt_bal:29000
+Customer with cust_id: 7 has acnt_bal:29000 cannot draw 29000
+counter 3 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 36
+counter 0 takes customer with cust_id:8 and trans_id:162 acquires the counter sem
+This is the amnt to be credited 46000
+ credit was succesful for trans_id: 162 and cust_id: 8 with new acnt_bal:110000
+counter 0 kicks customer with cust_id:8 and releases the counter sem 
+
+token increased 37
+counter 1 takes customer with cust_id:5 and trans_id:84 acquires the counter sem
+This is the amnt to be credited 30000
+ credit was succesful for trans_id: 84 and cust_id: 5 with new acnt_bal:60000
+counter 1 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 38
+counter 2 takes customer with cust_id:9 and trans_id:153 acquires the counter sem
+This is the amnt to be credited 11000
+ credit was succesful for trans_id: 153 and cust_id: 9 with new acnt_bal:51000
+counter 2 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 39
+counter 3 takes customer with cust_id:6 and trans_id:138 acquires the counter sem
+ before debit for trans_id: 138 and cust_id: 6 with new acnt_bal:41000
+Customer with cust_id: 6 has acnt_bal:41000 cannot draw 33000
+counter 3 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 40
+counter 0 takes customer with cust_id:10 and trans_id:151 acquires the counter sem
+This is the amnt to be credited 12000
+ credit was succesful for trans_id: 151 and cust_id: 10 with new acnt_bal:130000
+counter 0 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 41
+counter 1 takes customer with cust_id:1 and trans_id:65 acquires the counter sem
+ before debit for trans_id: 65 and cust_id: 1 with new acnt_bal:43000
+This is the amount to be debited 30000
+ debit was successful for trans_id: 65 and cust_id: 1 with new acnt_bal:13000
+counter 1 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 42
+counter 2 takes customer with cust_id:2 and trans_id:7 acquires the counter sem
+This is the amnt to be credited 30000
+ credit was succesful for trans_id: 7 and cust_id: 2 with new acnt_bal:98000
+counter 2 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 43
+counter 3 takes customer with cust_id:3 and trans_id:23 acquires the counter sem
+This is the amnt to be credited 39000
+ credit was succesful for trans_id: 23 and cust_id: 3 with new acnt_bal:193000
+counter 3 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 44
+counter 0 takes customer with cust_id:4 and trans_id:210 acquires the counter sem
+ before debit for trans_id: 210 and cust_id: 4 with new acnt_bal:107000
+This is the amount to be debited 49000
+ debit was successful for trans_id: 210 and cust_id: 4 with new acnt_bal:58000
+counter 0 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 45
+counter 1 takes customer with cust_id:7 and trans_id:151 acquires the counter sem
+This is the amnt to be credited 40000
+ credit was succesful for trans_id: 151 and cust_id: 7 with new acnt_bal:69000
+counter 1 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 46
+counter 2 takes customer with cust_id:9 and trans_id:55 acquires the counter sem
+This is the amnt to be credited 29000
+ credit was succesful for trans_id: 55 and cust_id: 9 with new acnt_bal:80000
+counter 2 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 47
+counter 3 takes customer with cust_id:8 and trans_id:114 acquires the counter sem
+ before debit for trans_id: 114 and cust_id: 8 with new acnt_bal:110000
+This is the amount to be debited 47000
+ debit was successful for trans_id: 114 and cust_id: 8 with new acnt_bal:63000
+counter 3 kicks customer with cust_id:8 and releases the counter sem 
+token increased 48
+counter 0 takes customer with cust_id:5 and trans_id:145 acquires the counter sem
+ before debit for trans_id: 145 and cust_id: 5 with new acnt_bal:60000
+This is the amount to be debited 31000
+ debit was successful for trans_id: 145 and cust_id: 5 with new acnt_bal:29000
+counter 0 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 49
+counter 1 takes customer with cust_id:6 and trans_id:169 acquires the counter sem
+This is the amnt to be credited 23000
+ credit was succesful for trans_id: 169 and cust_id: 6 with new acnt_bal:64000
+counter 1 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 50
+counter 2 takes customer with cust_id:10 and trans_id:167 acquires the counter sem
+This is the amnt to be credited 38000
+ credit was succesful for trans_id: 167 and cust_id: 10 with new acnt_bal:168000
+counter 2 kicks customer with cust_id:10 and releases the counter sem 
+
+
+token increased 51
+counter 3 takes customer with cust_id:1 and trans_id:16 acquires the counter sem
+ before debit for trans_id: 16 and cust_id: 1 with new acnt_bal:13000
+Customer with cust_id: 1 has acnt_bal:13000 cannot draw 48000
+counter 3 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 52
+counter 0 takes customer with cust_id:2 and trans_id:116 acquires the counter sem
+ before debit for trans_id: 116 and cust_id: 2 with new acnt_bal:98000
+This is the amount to be debited 46000
+ debit was successful for trans_id: 116 and cust_id: 2 with new acnt_bal:52000
+counter 0 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 53
+counter 1 takes customer with cust_id:3 and trans_id:143 acquires the counter sem
+This is the amnt to be credited 14000
+ credit was succesful for trans_id: 143 and cust_id: 3 with new acnt_bal:207000
+counter 1 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 54
+counter 2 takes customer with cust_id:4 and trans_id:209 acquires the counter sem
+ before debit for trans_id: 209 and cust_id: 4 with new acnt_bal:58000
+This is the amount to be debited 20000
+ debit was successful for trans_id: 209 and cust_id: 4 with new acnt_bal:38000
+counter 2 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 55
+counter 3 takes customer with cust_id:7 and trans_id:182 acquires the counter sem
+ before debit for trans_id: 182 and cust_id: 7 with new acnt_bal:69000
+This is the amount to be debited 13000
+ debit was successful for trans_id: 182 and cust_id: 7 with new acnt_bal:56000
+counter 3 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 56
+counter 0 takes customer with cust_id:5 and trans_id:112 acquires the counter sem
+ before debit for trans_id: 112 and cust_id: 5 with new acnt_bal:29000
+Customer with cust_id: 5 has acnt_bal:29000 cannot draw 49000
+counter 0 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 57
+counter 1 takes customer with cust_id:9 and trans_id:30 acquires the counter sem
+ before debit for trans_id: 30 and cust_id: 9 with new acnt_bal:80000
+This is the amount to be debited 40000
+ debit was successful for trans_id: 30 and cust_id: 9 with new acnt_bal:40000
+counter 1 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 58
+counter 2 takes customer with cust_id:6 and trans_id:164 acquires the counter sem
+This is the amnt to be credited 17000
+ credit was succesful for trans_id: 164 and cust_id: 6 with new acnt_bal:81000
+counter 2 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 59
+counter 3 takes customer with cust_id:8 and trans_id:171 acquires the counter sem
+ before debit for trans_id: 171 and cust_id: 8 with new acnt_bal:63000
+This is the amount to be debited 21000
+ debit was successful for trans_id: 171 and cust_id: 8 with new acnt_bal:42000
+counter 3 kicks customer with cust_id:8 and releases the counter sem 
+
+token increased 60
+counter 0 takes customer with cust_id:10 and trans_id:11 acquires the counter sem
+ before debit for trans_id: 11 and cust_id: 10 with new acnt_bal:168000
+This is the amount to be debited 47000
+ debit was successful for trans_id: 11 and cust_id: 10 with new acnt_bal:121000
+counter 0 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 61
+counter 1 takes customer with cust_id:1 and trans_id:7 acquires the counter sem
+ before debit for trans_id: 7 and cust_id: 1 with new acnt_bal:13000
+Customer with cust_id: 1 has acnt_bal:13000 cannot draw 24000
+counter 1 kicks customer with cust_id:1 and releases the counter sem 
+
+token increased 62
+counter 2 takes customer with cust_id:2 and trans_id:33 acquires the counter sem
+ before debit for trans_id: 33 and cust_id: 2 with new acnt_bal:52000
+This is the amount to be debited 40000
+ debit was successful for trans_id: 33 and cust_id: 2 with new acnt_bal:12000
+counter 2 kicks customer with cust_id:2 and releases the counter sem 
+
+token increased 63
+counter 3 takes customer with cust_id:3 and trans_id:125 acquires the counter sem
+ before debit for trans_id: 125 and cust_id: 3 with new acnt_bal:207000
+This is the amount to be debited 37000
+ debit was successful for trans_id: 125 and cust_id: 3 with new acnt_bal:170000
+counter 3 kicks customer with cust_id:3 and releases the counter sem 
+
+token increased 64
+counter 0 takes customer with cust_id:4 and trans_id:106 acquires the counter sem
+This is the amnt to be credited 34000
+ credit was succesful for trans_id: 106 and cust_id: 4 with new acnt_bal:72000
+counter 0 kicks customer with cust_id:4 and releases the counter sem 
+
+token increased 65
+counter 1 takes customer with cust_id:7 and trans_id:14 acquires the counter sem
+This is the amnt to be credited 42000
+ credit was succesful for trans_id: 14 and cust_id: 7 with new acnt_bal:98000
+counter 1 kicks customer with cust_id:7 and releases the counter sem 
+
+token increased 66
+counter 2 takes customer with cust_id:5 and trans_id:90 acquires the counter sem
+ before debit for trans_id: 90 and cust_id: 5 with new acnt_bal:29000
+This is the amount to be debited 15000
+ debit was successful for trans_id: 90 and cust_id: 5 with new acnt_bal:14000
+counter 2 kicks customer with cust_id:5 and releases the counter sem 
+
+token increased 67
+counter 3 takes customer with cust_id:9 and trans_id:142 acquires the counter sem
+This is the amnt to be credited 25000
+ credit was succesful for trans_id: 142 and cust_id: 9 with new acnt_bal:65000
+counter 3 kicks customer with cust_id:9 and releases the counter sem 
+
+token increased 68
+counter 0 takes customer with cust_id:6 and trans_id:163 acquires the counter sem
+This is the amnt to be credited 44000
+ credit was succesful for trans_id: 163 and cust_id: 6 with new acnt_bal:125000
+counter 0 kicks customer with cust_id:6 and releases the counter sem 
+
+token increased 69
+counter 1 takes customer with cust_id:10 and trans_id:140 acquires the counter sem
+ before debit for trans_id: 140 and cust_id: 10 with new acnt_bal:121000
+This is the amount to be debited 16000
+ debit was successful for trans_id: 140 and cust_id: 10 with new acnt_bal:105000
+counter 1 kicks customer with cust_id:10 and releases the counter sem 
+
+token increased 70
+counter 2 takes customer with cust_id:8 and trans_id:15 acquires the counter sem
+ before debit for trans_id: 15 and cust_id: 8 with new acnt_bal:42000
+This is the amount to be debited 22000
+ debit was successful for trans_id: 15 and cust_id: 8 with new acnt_bal:20000
+counter 2 kicks customer with cust_id:8 and releases the counter sem 
+

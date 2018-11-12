@@ -1,0 +1,60 @@
+
+ Enter inpout n and m
+
+ Person 1  is gooing to look for his car
+ 1 is waiting for the car
+ 1 got in his car 
+ now 3 cars are left & 7 passengers are there
+ Person 2  is gooing to look for his car
+ 2 is waiting for the car
+ Person 4  is gooing to look for his car
+ 4 is waiting for the car
+ Person 5  is gooing to look for his car
+ 5 is waiting for the car
+ Person 3  is gooing to look for his car
+ 3 is waiting for the car
+ Person 6  is gooing to look for his car
+ 6 is waiting for the car
+ Person 8  is gooing to look for his car
+ 8 is waiting for the car
+ Person 7  is gooing to look for his car
+ 7 is waiting for the car
+ 2 got in his car 
+ now 2 cars are left & 6 passengers are there
+ 1 is getting out of car
+ now 3 cars are left & 6 passengers are there
+
+ 5 got in his car 
+ now 2 cars are left & 5 passengers are there
+ 2 is getting out of car
+ 4 got in his car 
+ now 1 cars are left & 4 passengers are there
+ 5 is getting out of car
+ 3 got in his car 
+ now 0 cars are left & 3 passengers are there
+ 4 is getting out of car
+ now 1 cars are left & 3 passengers are there
+
+ 6 got in his car 
+ now 0 cars are left & 2 passengers are there
+ 3 is getting out of car
+ now 1 cars are left & 2 passengers are there
+
+ now 2 cars are left & 2 passengers are there
+
+ 7 got in his car 
+ now 1 cars are left & 1 passengers are there
+ 6 is getting out of car
+ now 2 cars are left & 1 passengers are there
+
+ 8 got in his car 
+ now 1 cars are left & 0 passengers are there
+ 7 is getting out of car
+ now 2 cars are left & 0 passengers are there
+
+ now 3 cars are left & 0 passengers are there
+
+ 8 is getting out of car
+ now 4 cars are left & 0 passengers are there
+
+ All Have enjoyed the rides
