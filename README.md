@@ -20,7 +20,7 @@ Lab Assignment List
 2. Simulating the Usage of Variable number of arguments *(**...** notation)*
 3. Simulation of Template function/class
 
-### Lab 2- Synchronisation 
+### Synchronisation 
 
 1. Dining Phyilosohers C implementation
 2. Readers Writers Problem C Demo
