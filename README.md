@@ -22,13 +22,13 @@ Lab Assignment List
 
 ### Synchronisation 
 
-1. Dining Phyilosohers C implementation
-2. Readers Writers Problem C Demo
-3. Jurrasic Park Problem C implementation </br>
+1. Dining Phyilosohers *C implementation*
+2. Readers Writers Problem *C Demo*
+3. Jurrasic Park Problem *C implementation* </br>
   **Problem Statement:**
   Jurassic Park consists of a dinosaur museum and a park for safari tiding. There are *n* passengers and *m* single-passenger cars.     Passengers wander around the museum for a while, then line up to take a ride in a safari car. When a car is available, it loads the one   passenger it can hold and rides around the park for a random amount of time. If the m cars are all out riding passenger around, the       passenger who wants to ride waits; if a car is ready to load but there are no waiting passengers, then the car waits. Use semaphores to   synchronize the *n* passenger threads/processes and the *m* car threads/processes.
 
-4. Sleeping TA Problem C implementation </br>
+4. Sleeping TA Problem *C implementation* </br>
    **Problem Statement:**
  A university computer science department has a teaching assistant (TA) who
 helps undergraduate students with their programming assignments during
@@ -44,7 +44,7 @@ student will come back at a later time.
 Using POSIX threads, mutex locks, and semaphores, implement a solution
 that coordinates the activities of the TA and the students. Details for this
 assignment are provided below.
-5. Banking Scenario Python Implementation </br>
+5. Banking Scenario *Python Implementation* </br>
   **Problem Statement:**
   Bank shall maintain an overall balance and there shall be three counters supported in the bank for credit or debit operations by customers. </br>
 Number of customers accessing counters should be dynamic.  A withdrawal or credit transaction by a customer thread would update both his local account balance and a global overall bank balance. </br>
@@ -60,3 +60,11 @@ ids/customer threads for performing the transaction. </br>
 Adopt standard banking convention such as a minimum balance for each customer and an minimum
 overall bank balance =  minimum balance of all customers.
   
+### Threading
+1. Sorting MultiThreaded Versions
+   *  HeapSort *Python Implementation*
+   *  MergeSort *C implementation*
+   *  QuickSort *C implementation*
+2. Matric Inversion *C++ Implementation*
+3. Prime Number Generation *C impelementation*
+4. MonteCarlo Method PI value computation *C implementation*
