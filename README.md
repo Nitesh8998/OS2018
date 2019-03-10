@@ -66,5 +66,5 @@ overall bank balance =  minimum balance of all customers.
    *  MergeSort *C implementation*
    *  QuickSort *C implementation*
 2. Matric Inversion *C++ Implementation*
-3. Prime Number Generation *C impelementation*
+3. Prime Number Generation *C implementation*
 4. MonteCarlo Method PI value computation *C implementation*
